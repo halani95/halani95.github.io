@@ -23,12 +23,13 @@ h1 {
 	font-size: 16px;
 	font-style: bold
 	/*margin left: 200px;*/
+
 }
 
 .header p {
 	font-size: 16px;
 	font-style: italic;
-	opacity: .7;
+	opacity: .5;
 	margin-bottom: 40px;
 	border-top: 1px solid #ccc;
 	border-top: 1px solid #ccc;
