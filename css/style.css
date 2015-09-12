@@ -1,28 +1,31 @@
 header {
 	font-size: 16px;
 	font-family: Georgia, serif;
+	text-align: center;
 
 }
 
 body {
 	font-size: 16px;
 	font-family: Georgia, serif;
-	line-height: 3;
+	line-height: 1.5;
 	background-color: rgb(250,250,250);
-	padding: 50px;
+	padding: 20px;
 	max-width: 900px
-	border-top: 30px solid #200;
-	border-top: 70px solid #200;
+
 }
 
 h1 {
+	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: 8px;
+	letter-spacing: 15px;
 	opacity: .8;
 	margin-bottom: 60px;
 	font-size: 16px;
 	font-style: bold
 	/*margin left: 200px;*/
+	vertical-align: baseline;
+	background-color: rgb(200,200,200);
 
 }
 
@@ -33,12 +36,15 @@ h1 {
 	margin-bottom: 40px;
 	border-top: 1px solid #ccc;
 	border-top: 1px solid #ccc;
-	padding: 50px 0;
+	padding: 20px 0;
+	text-align: center;
 }
 
 .projects {
-	max-width: 1000px;
+	max-width: 900px;
 	font-size: 16px;
+	background-color: rgb(300,300,300)
+	vertical-align: center;
 }
 
 .project {
@@ -63,6 +69,8 @@ h2 {
 	border-bottom: 3px #333;
 	display: inline-block;
 	margin-bottom: 20px;
+	text-align: center;
+	max-width: 800px
 }
 
 .project p {
